@@ -7,9 +7,7 @@ import 'tachyons';
 // {robots} because it doesn't have export default which means that it can return multiple things.
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App/>
-  </React.StrictMode>,
+    <App/>,
   document.getElementById('root')
 );
 
